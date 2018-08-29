@@ -30,6 +30,9 @@ class String
   end 
 
   def count_sentences
+    # split at periods, question marks, and exclamation points
+    # count number of elements from split
+    # 
     
   end
 end 
