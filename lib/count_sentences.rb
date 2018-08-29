@@ -1,5 +1,5 @@
 
-
+require 'pry'
 class String
 
   def sentence?
@@ -36,3 +36,6 @@ class String
     array.count 
   end
 end 
+
+binding.pry
+0 
