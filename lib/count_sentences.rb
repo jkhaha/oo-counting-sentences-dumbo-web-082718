@@ -29,5 +29,4 @@ class String
   def count_sentences
 
   end
-  
 end
