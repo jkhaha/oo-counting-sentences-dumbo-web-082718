@@ -7,7 +7,7 @@ class String
       return true 
     else 
       return false
-  end
+    end
   
   binding.pry
 
@@ -16,7 +16,7 @@ class String
       return true 
     else 
       return false
-  end
+    end
 
 
   def exclamation?
@@ -24,7 +24,8 @@ class String
       return true 
     else 
       return false
-  end
+    end
+  end 
 
   def count_sentences
 
