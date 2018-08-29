@@ -9,8 +9,6 @@ class String
       return false
     end
   end 
-  
-
 
   def question?
     if self.end_with?("?")
@@ -19,7 +17,6 @@ class String
       return false
     end 
   end
-
 
   def exclamation?
     if self.end_with?("!")
