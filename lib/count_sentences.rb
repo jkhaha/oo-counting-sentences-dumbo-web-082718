@@ -31,7 +31,8 @@ class String
     # count number of elements from split
     # 
     # self.split if self.end_with?(". ") || self.end_with?("? ") || self.end_with?("! ")
-    self.split(/(?<=[?.!])/)
+    array = []
+    array.concat self.split(/(?<=[?.!])/)
     self.count 
   end
 end 
