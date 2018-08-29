@@ -34,6 +34,6 @@ class String
     # count number of elements from split
     # 
     # self.split if self.end_with?(". ") || self.end_with?("? ") || self.end_with?("! ")
-    self.split(/[.?!]/)
+    self.count_sentences
   end
 end 
