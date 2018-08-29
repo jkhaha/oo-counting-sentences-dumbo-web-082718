@@ -8,6 +8,8 @@ class String
     else 
       return false
   end
+  
+  binding.pry
 
   def question?
     if self.end_with?("?")
