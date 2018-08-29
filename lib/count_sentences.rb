@@ -7,6 +7,7 @@ class String
       return true 
     else 
       return false 
+binding.pry
   end
 
   def question?
@@ -21,5 +22,3 @@ class String
 
   end
 end
-binding.pry
-0 
