@@ -1,5 +1,4 @@
 
-require 'pry'
 class String
 
   def sentence?
@@ -27,14 +26,6 @@ class String
   end 
 
   def count_sentences
-    # split at periods, question marks, and exclamation points
-    # count number of elements from split
-    # 
-    # self.split if self.end_with?(". ") || self.end_with?("? ") || self.end_with?("! ")
-
-    self.split(/(?<=[?.!])/)).reject(&:empty?).count
+    self.split(/(?<=[?.!])/).reject(&:empty?).count
   end
 end 
-
-binding.pry
-0 
