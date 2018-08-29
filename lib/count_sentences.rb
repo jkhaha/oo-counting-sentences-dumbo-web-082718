@@ -31,10 +31,8 @@ class String
     # count number of elements from split
     # 
     # self.split if self.end_with?(". ") || self.end_with?("? ") || self.end_with?("! ")
-    array = []
-    array.concat(self.split(/(?<=[?.!])/))
-    #reject look up
-    array.count 
+
+    self.split(/(?<=[?.!])/)).reject(&:empty?).count
   end
 end 
 
