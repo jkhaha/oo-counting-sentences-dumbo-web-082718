@@ -33,6 +33,7 @@ class String
     # self.split if self.end_with?(". ") || self.end_with?("? ") || self.end_with?("! ")
     array = []
     array.concat(self.split(/(?<=[?.!])/))
+    #reject look up
     array.count 
   end
 end 
