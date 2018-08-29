@@ -32,7 +32,7 @@ class String
     # 
     # self.split if self.end_with?(". ") || self.end_with?("? ") || self.end_with?("! ")
     array = []
-    array.concat(self.split(/(?<=[? . ! ])/))
+    array.concat(self.split(/(?<=[?.!])/))
     array.count 
   end
 end 
