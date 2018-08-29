@@ -15,6 +15,7 @@ class String
     else 
       return false 
   end
+  binding.pry
 
   def exclamation?
 
