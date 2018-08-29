@@ -2,13 +2,12 @@ require 'pry'
 
 class String
 
-  def sentence?
+  def sentence?(self)
     if self.end_with?(".")
       return true 
     else 
-      return false 
-binding.pry
-0
+      return false
+      
   end
 
   def question?
