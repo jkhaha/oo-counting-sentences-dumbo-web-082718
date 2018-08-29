@@ -32,6 +32,7 @@ class String
     # 
     # self.split if self.end_with?(". ") || self.end_with?("? ") || self.end_with?("! ")
     self.split(/(?<=[?.!])/)
+    self.count 
   end
   binding.pry
 end 
