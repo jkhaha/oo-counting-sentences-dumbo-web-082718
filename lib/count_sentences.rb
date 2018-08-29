@@ -26,6 +26,8 @@ class String
   end 
 
   def count_sentences
-    self.split(/(?<=[?.!])/).reject(&:empty?).count
+    array = []
+    array.concat(self.split(/(?<=[?.!])/).reject(&:empty?))
+    array.count
   end
 end 
