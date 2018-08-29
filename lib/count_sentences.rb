@@ -1,4 +1,4 @@
-require 'pry'
+
 
 class String
 
@@ -32,7 +32,6 @@ class String
     # 
     # self.split if self.end_with?(". ") || self.end_with?("? ") || self.end_with?("! ")
     self.split(/(?<=[?.!])/)
-    array.count 
+    self.count 
   end
-  binding.pry
 end 
