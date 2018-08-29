@@ -1,4 +1,5 @@
 
+require 'pry'
 class String
 
   def sentence?
@@ -26,8 +27,6 @@ class String
   end 
 
   def count_sentences
-    array = []
-    array.concat(self.split(/(?<=[?.!])/).reject(&:empty?))
-    array.count
+    self.split(/(?<=[?.!])/).reject(&:empty?).count
   end
 end 
