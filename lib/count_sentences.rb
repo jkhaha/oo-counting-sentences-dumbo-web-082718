@@ -1,5 +1,4 @@
 
-require 'pry'
 class String
 
   def sentence?
@@ -30,6 +29,3 @@ class String
     self.split(/(?<=[?.!])/).reject(&:empty?).count
   end
 end 
-
-binding.pry
-0 
